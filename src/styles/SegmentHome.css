@@ -1,0 +1,147 @@
+.popup-overlay {
+    position: fixed;
+    top:48%;
+    right: 0; /* Position the popup on the right side */
+    transform: translate(0, -50%);
+  
+
+       /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  
+  .popup-content {
+    background: white;
+    padding:10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+
+
+.header {
+    background-color: #7FC7D9;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+}
+
+.save {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #7FC7D9;
+    border: 2px solid #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+   
+}
+
+.closeicon {
+    border: none;
+    background-color: transparent;
+}
+
+input{
+    width:80%;
+    height: 24px;
+    border: 0.5px solid black;
+    padding: 5px;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.radio{
+    width: 25px;
+    height: 25px;}
+
+#schemaDropdown{
+    width: 80%;
+    height: 50px;
+    border: 0.5px solid black;
+    padding: 10px;
+}
+
+select{
+    width: 80%;
+    height: 50px;
+    border: 0.5px solid black;
+    padding: 10px;
+}
+
+option{
+font-size: medium;
+}
+.add{
+    margin-top: 40px;
+    color: lightgreen;
+    font-size: medium;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* .selectedfields{
+    border: 2px solid #7FC7D9;
+    padding: 30px;
+    margin-bottom: 25px;
+} */
+
+.removeicon{
+    width: 25px;
+    height: 25px;
+}
+
+.remove{
+    margin-top: 15px;
+    background-color: #7FC7D9;
+    border: 2px solid  #7FC7D9;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+.footer{
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 10px;
+}
+.segment{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #fff;
+    border: 2px solid lightseagreen;
+    background-color: lightseagreen;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.cancel{
+    color:red;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+}
